@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+:root {
+    --header-background-color: #ffffff;
+    --hero-background-color: #2f303a;
+    --second-background-color: #ffffff;
+    --main-text-color: #757575;
+    --accent-color: #2196f3;
+    --main-head-color: #212121;
+    --light-grey: #AFB1B8;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    background-color: var(--second-background-color);
+    color: var(--main-head-color);
+    margin: 0;
+}
+.section {
+    padding: 94px 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
